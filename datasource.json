@@ -1,0 +1,149 @@
+{
+  "baseValue": {
+    "mc": 500,
+    "mq": 1500
+  },
+  "typologicalCategories": [
+    {
+      "id": 0,
+      "key": "Villa-Villetta singola",
+      "value": 1.0
+    },
+    {
+      "id": 1,
+      "key": "Villa-Villetta plurifamiliare",
+      "value": 0.85
+    },
+    {
+      "id": 2,
+      "key": "Schiera",
+      "value": 0.8
+    },
+    {
+      "id": 3,
+      "key": "Palazzina",
+      "value": 0.7
+    },
+    {
+      "id": 4,
+      "key": "Condominio grandi dimensioni",
+      "value": 0.65
+    }
+  ],
+  "finishingLevel": [
+    {
+      "key": "Lusso",
+      "value": 1.4
+    },
+    {
+      "key": "Prestigioso",
+      "value": 1.3
+    },
+    {
+      "key": "Signorile",
+      "value": 1.15
+    },
+    {
+      "key": "Civile - Medio",
+      "value": 1.0
+    },
+    {
+      "key": "Economico",
+      "value": 0.9
+    }
+  ],
+  "constructionTechnology": [
+    {
+      "key": "Cemento armato",
+      "value": 1,
+      "typologicalCategories": [-1]
+    },
+    {
+      "key": "Muratura - Legno - Prefabbricati",
+      "value": 0.87,
+      "typologicalCategories": [0, 1, 2]
+    },
+    {
+      "key": "Muratura - Legno - Prefabbricati",
+      "value": 1,
+      "typologicalCategories": [3]
+    },
+    {
+      "key": "Muratura - Legno - Prefabbricati",
+      "value": 1.13,
+      "typologicalCategories": [4]
+    }
+  ],
+  "buildingLocation": [
+    {
+      "key": "Aree con libertà di movimento",
+      "value": 1
+    },
+    {
+      "key": "Limitata difficoltà",
+      "value": 1.1
+    },
+    {
+      "key": "Elevata difficoltà",
+      "value": 1.25
+    },
+    {
+      "key": "Eccezionale",
+      "value": 2
+    }
+  ],
+  "geometricConformation": [
+    {
+      "key": "Regolare",
+      "value": 1
+    },
+    {
+      "key": "Pianta Irregolare",
+      "value": 1.03
+    },
+    {
+      "key": "Facciata Irregolare",
+      "value": 1.1
+    }
+  ],
+  "structuralCharacteristics": [
+    {
+      "key": "Non antisismica",
+      "value": 1,
+      "typologicalCategories": [-1]
+    },
+    {
+      "key": "Antisismica",
+      "value": 1.05,
+      "typologicalCategories": [0, 1, 2]
+    },
+    {
+      "key": "Antisismica",
+      "value": 1.1,
+      "typologicalCategories": [3]
+    },
+    {
+      "key": "Antisismica",
+      "value": 1.15,
+      "typologicalCategories": [4]
+    }
+  ],
+  "destinationVolumes": [
+    {
+      "key": "Residenziale",
+      "value": 1
+    },
+    {
+      "key": "Box - Garage",
+      "value": 0.5
+    },
+    {
+      "key": "Mansarda - Taverna",
+      "value": 0.8
+    },
+    {
+      "key": "Pilotis",
+      "value": 0.3
+    }
+  ]
+}
