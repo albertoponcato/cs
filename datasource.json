@@ -3,6 +3,20 @@
     "mc": 500,
     "mq": 1500
   },
+  "factor": [
+    {
+      "key": "Incrementa",
+      "value": 0.05
+    },
+    {
+      "key": "Standard",
+      "value": 0
+    },
+    {
+      "key": "Riduci",
+      "value": -0.05
+    }
+  ],
   "finishingLevel": [
     {
       "key": "Lusso",
