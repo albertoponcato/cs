@@ -225,5 +225,25 @@
       "key": "Cantina",
       "value": 0.5
     }
+  ],
+  "typeSystems": [
+    {
+      "key": "Centralizzati",
+      "value": 1
+    },
+    {
+      "key": "Autonomi",
+      "value": 1
+    }
+  ],
+  "attic": [
+    {
+      "key": "Praticabile",
+      "value": 1
+    },
+    {
+      "key": "Non praticabile",
+      "value": 1
+    }
   ]
 }
