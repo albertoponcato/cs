@@ -220,6 +220,10 @@
     {
       "key": "Pilotis",
       "value": 0.3
+    },
+    {
+      "key": "Cantina",
+      "value": 0.5
     }
   ]
 }
